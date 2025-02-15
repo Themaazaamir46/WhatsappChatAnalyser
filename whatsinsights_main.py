@@ -495,6 +495,7 @@ if uploaded_file is not None:
             }
             </style>
             """, unsafe_allow_html=True)
+            #some comment
 
             # Remove the index column and style the DataFrame
             st.dataframe(
